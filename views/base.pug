@@ -12,7 +12,7 @@ html
       script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js')
       title Natours | #{title}
 
-  body
+  body(data-alert=`${alert ? alert : ''}`)
     // HEADER
     include _header
 
